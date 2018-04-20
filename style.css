@@ -1,0 +1,71 @@
+#map{
+	float: right;
+	margin-bottom: 20px;
+}
+body{
+	background-color: lightblue;
+}
+hr{
+	clear:right;
+}
+@font-face {
+	font-family: 'Bebas Neue';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Bebas Neue'), url('BebasNeue.woff') format('woff');
+}
+@font-face {
+	font-family: 'montserrat';
+	font-style: normal;
+	font-weight: normal;
+	src: local('montserrat'), url('montserrat.woff') format('woff');
+}
+p{
+	font-family: 'montserrat';
+	font-size: large;
+}
+
+h1{
+	font-family: 'Bebas Neue';
+	font-size: 400%;
+}
+h3{
+	font-family: 'Bebas Neue';
+	font-size: 250%;
+}
+img {
+   padding:1px;
+   border:1px solid black;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.sources{
+	text-align: center;
+	font-family: 'montserrat';
+}
+
+.body{
+	margin: auto;
+	width: 75%;
+}
+#videos{
+	padding:1px;
+   	border:1px solid black;
+   	display: block;
+   	margin-left: auto;
+   	margin-right: auto;
+}
+.images{
+	float: left;
+    text-align: center;
+}
+a:link{
+	color:grey;
+}
+a:visited{
+	color: navy;
+}
+a:active{
+	color: blue;
+}
